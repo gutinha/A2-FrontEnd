@@ -91,3 +91,7 @@ body {
     overflow-x: hidden;
     height: 100%;
 }
+
+#botao {
+    margin-left: 600px;
+}

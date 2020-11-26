@@ -1,0 +1,86 @@
+body {
+    display: block;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    -webkit-perspective: 6px;
+    perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+    perspective-origin: 50% 160px;
+    background-color: rgb(196, 196, 196);
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../imagens/fundo.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    float: left;
+    background-color: #000;
+    color: #FFF;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 101%;
+    margin-top: 57px;
+}
+
+footer h2 {
+    font-size: 2em;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    padding-bottom: 80px;
+    width: 85%;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.texto {
+    text-align: center;
+    font-size: 90px;
+    font-family: Bebas Neue;
+}
+
+.video-exemplo {
+    margin-left: 30px;
+}
+
+.descricao {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: -250px;
+    margin-left: 470px;
+    font-family: Bebas Neue;
+    float: left;
+}
+
+.descricaoA {
+    font-size: 17px;
+}
+
+.comprar {
+    margin-top: 150px;
+    margin-left: 130px;
+}
+
+.comprar:hover {
+    color: red;
+}

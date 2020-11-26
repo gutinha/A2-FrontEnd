@@ -15,7 +15,7 @@ body {
     perspective-origin: 50% 160px;
     background-color: rgb(196, 196, 196);
     background-size: 100%;
-    background-image: url('../imagens/fundo2.png');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url('../imagens/fundo2.png');
     color: rgb(255, 255, 255);
 }
 
