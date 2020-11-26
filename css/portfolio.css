@@ -1,0 +1,93 @@
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio li {
+    border: .5em solid black;
+    background-color: #FAFFFC;
+    flex: 1 1 45%;
+    box-sizing: border-box;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.portfolio img {
+    width: 100%;
+    box-shadow: 0 0 4px #000;
+}
+
+.portfolio li:first-child {
+    flex-basis: 100%;
+}
+
+body {
+    display: block;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    -webkit-perspective: 6px;
+    perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+    perspective-origin: 50% 160px;
+    background-color: rgb(196, 196, 196);
+    background-image: url(../imagens/fundo2.png);
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.secao-inicio {
+    margin-bottom: 0;
+    padding: 2em;
+    font-family: Bebas Neue;
+}
+
+.secao-inicio h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+    font-family: Bebas Neue;
+}
+
+.botao-index {
+    font-family: Bebas Neue;
+    font-size: 2em;
+}
+
+footer {
+    float: left;
+    background-color: #000;
+    color: #FFF;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 101%;
+    margin: -0% -1%;
+    margin-bottom: -1%;
+}
+
+footer h2 {
+    font-size: 2em;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    padding-bottom: 80px;
+    width: 85%;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}

@@ -1,0 +1,144 @@
+body {
+    display: block;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    -webkit-perspective: 6px;
+    perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+    perspective-origin: 50% 160px;
+    background-color: rgb(196, 196, 196);
+    background-size: 100%;
+    background-image: url('../imagens/fundo2.png');
+    color: rgb(255, 255, 255);
+}
+
+.secao-inicio {
+    margin-bottom: 0;
+    padding: 2em;
+    font-family: Bebas Neue;
+}
+
+.secao-inicio h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+    font-family: Bebas Neue;
+}
+
+.inicio {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.saudacao {
+    font-size: 30px;
+}
+
+.botao-index {
+    font-family: Bebas Neue;
+    font-size: 2em;
+}
+
+.seja-bem-vindo {
+    padding: 2em;
+    padding-bottom: 0;
+    font-family: Bebas Neue;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    text-shadow: 2px 2px #000;
+}
+
+.sobre-mim {
+    float: left;
+    padding-left: 0;
+    font-family: Bebas Neue;
+}
+
+.prazer {
+    padding: 2em;
+    font-family: Bebas Neue;
+}
+
+.gutinha {
+    float: left;
+    padding: 2em;
+    border: 0;
+    width: 300px;
+    height: 400px;
+}
+
+.name-gutinha {
+    margin-top: 35px;
+    margin-left: -30px;
+    float: right;
+    font-size: 30px;
+}
+
+h1.guteenha {
+    font-size: 20px;
+}
+
+h1.gutinha-detalhe {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.descricao-gutinhha {
+    margin-top: 60px;
+    margin-left: 30px;
+    float: right;
+}
+
+footer {
+    float: left;
+    background-color: #000;
+    color: #FFF;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 101%;
+    margin: -0% -1%;
+    margin-bottom: -1%;
+}
+
+footer h2 {
+    font-size: 2em;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    padding-bottom: 80px;
+    width: 85%;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.descricao {
+    padding: 2em;
+    padding-top: 0;
+    font-family: Bebas Neue;
+    font-weight: normal;
+}
+
+.botao-loja {
+    margin-left: 200px;
+    text-align: center;
+}
