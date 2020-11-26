@@ -1,0 +1,99 @@
+body {
+    display: block;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    -webkit-perspective: 6px;
+    perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+    perspective-origin: 50% 160px;
+    background-color: rgb(196, 196, 196);
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url('../imagens/fundo2.png');
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    float: left;
+    background-color: #000;
+    color: #FFF;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 101%;
+    margin-top: 220px;
+    margin-bottom: -1%;
+}
+
+footer h2 {
+    font-size: 2em;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    padding-bottom: 80px;
+    width: 85%;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.texto {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Bebas Neue;
+}
+
+.videowalkman {
+    float: left;
+    margin-left: 20px;
+}
+
+.textowalkman {
+    margin-top: -250px;
+    margin-left: 590px;
+    font-size: 30px;
+    font-family: Bebas Neue;
+}
+
+.botao-loja {
+    float: left;
+    margin-top: 120px;
+    margin-left: -170px;
+}
+
+.textoweeliz {
+    margin-top: -250px;
+    margin-left: 590px;
+    font-size: 30px;
+    font-family: Bebas Neue;
+}
+
+.videoweeliz {
+    float: left;
+    margin-top: 230px;
+    margin-left: 20px;
+}
+
+.botao-lojaweeliz {
+    float: left;
+    margin-top: 350px;
+    margin-left: -240px;
+}
