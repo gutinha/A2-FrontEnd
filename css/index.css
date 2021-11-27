@@ -105,7 +105,7 @@ footer {
     background-color: #000;
     color: #FFF;
     padding: 1em;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 101%;
     margin: -0% -1%;
